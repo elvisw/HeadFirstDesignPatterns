@@ -13,7 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarbuzzCoffee", "StarbuzzC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaStoreFactoryMethod", "PizzaStoreFactoryMethod\PizzaStoreFactoryMethod.csproj", "{357100A9-A9B7-4709-8A7A-56E6CC111E5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStoreAbstractFactory", "PizzaStoreAbstractFactory\PizzaStoreAbstractFactory.csproj", "{412C90FF-B06C-4934-92B3-ABA9D7A8A584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaStoreAbstractFactory", "PizzaStoreAbstractFactory\PizzaStoreAbstractFactory.csproj", "{412C90FF-B06C-4934-92B3-ABA9D7A8A584}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleRemoteControl", "SimpleRemoteControl\SimpleRemoteControl.csproj", "{41118F1E-FFC5-4408-8AF6-29F756E1E800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControl", "RemoteControl\RemoteControl.csproj", "{D92130D8-57A4-4E20-B567-06ED4C6B9CF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteControlWithUndo", "RemoteControlWithUndo\RemoteControlWithUndo.csproj", "{C4A2A1B9-11C7-4EA9-86A7-BAD32438EC22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{412C90FF-B06C-4934-92B3-ABA9D7A8A584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{412C90FF-B06C-4934-92B3-ABA9D7A8A584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{412C90FF-B06C-4934-92B3-ABA9D7A8A584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41118F1E-FFC5-4408-8AF6-29F756E1E800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41118F1E-FFC5-4408-8AF6-29F756E1E800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41118F1E-FFC5-4408-8AF6-29F756E1E800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41118F1E-FFC5-4408-8AF6-29F756E1E800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92130D8-57A4-4E20-B567-06ED4C6B9CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92130D8-57A4-4E20-B567-06ED4C6B9CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92130D8-57A4-4E20-B567-06ED4C6B9CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92130D8-57A4-4E20-B567-06ED4C6B9CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A2A1B9-11C7-4EA9-86A7-BAD32438EC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A2A1B9-11C7-4EA9-86A7-BAD32438EC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A2A1B9-11C7-4EA9-86A7-BAD32438EC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A2A1B9-11C7-4EA9-86A7-BAD32438EC22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

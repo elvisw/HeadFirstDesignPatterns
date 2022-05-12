@@ -27,6 +27,15 @@ namespace WeatherStation.Event.Controllers
             _weatherData.Pressure = pressure;
             //触发事件，同时传送数据
             MeasurementsChanged?.Invoke(this, _weatherData);
+
+            //下面是
+            //MeasurementsChanged?.Invoke(this, _weatherData);
+            //的完整写法
+
+            //if (MeasurementsChanged != null)
+            //{
+            //    MeasurementsChanged(this, _weatherData);
+            //}
         }
     }
 }

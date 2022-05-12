@@ -13,9 +13,11 @@ namespace WeatherStation.Event.Views
         public DisplayBase(WeatherHandler provider)
         {
             if (provider != null)
+                //事件订阅
                 provider.MeasurementsChanged += RefreshData;
         }
 
+        //事件处理，并从e获取数据
         private void RefreshData(object? sender, EventArgs e)
         {
             LoadData((WeatherData)e);
@@ -28,11 +30,13 @@ namespace WeatherStation.Event.Views
 
         public virtual void Subscribe(WeatherHandler provider)
         {
+            //事件订阅
             provider.MeasurementsChanged += RefreshData;
         }
 
         public virtual void Unsubscribe(WeatherHandler provider)
         {
+            //事件退订
             provider.MeasurementsChanged -= RefreshData;
         }
 

@@ -10,8 +10,9 @@ namespace WeatherStation.Event.Controllers
     public class WeatherHandler //: IObservable<WeatherData>
     {
 
-        private WeatherData _weatherData;
+        private readonly WeatherData _weatherData;
 
+        //声明事件
         public event EventHandler<WeatherData>? MeasurementsChanged;
 
         public WeatherHandler()
@@ -24,6 +25,7 @@ namespace WeatherStation.Event.Controllers
             _weatherData.Temperature = temperature;
             _weatherData.Humidity = humidity;
             _weatherData.Pressure = pressure;
+            //触发事件，同时传送数据
             MeasurementsChanged?.Invoke(this, _weatherData);
         }
     }

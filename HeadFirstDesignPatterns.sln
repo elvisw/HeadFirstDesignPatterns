@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ducks", "Ducks\Ducks.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeTheater", "HomeTheater\HomeTheater.csproj", "{C857902C-908A-489D-8113-0C497B0CB62F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherStation.Event", "WeatherStation.Event\WeatherStation.Event.csproj", "{AFD3FC9C-3879-40B5-9287-EB70C4D8EA1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{C857902C-908A-489D-8113-0C497B0CB62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C857902C-908A-489D-8113-0C497B0CB62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C857902C-908A-489D-8113-0C497B0CB62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD3FC9C-3879-40B5-9287-EB70C4D8EA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD3FC9C-3879-40B5-9287-EB70C4D8EA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD3FC9C-3879-40B5-9287-EB70C4D8EA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD3FC9C-3879-40B5-9287-EB70C4D8EA1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

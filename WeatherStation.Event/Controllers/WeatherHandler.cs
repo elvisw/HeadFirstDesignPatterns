@@ -7,12 +7,14 @@ using WeatherStation.Event.Models;
 
 namespace WeatherStation.Event.Controllers
 {
-    public class WeatherHandler //: IObservable<WeatherData>
+    public class WeatherHandler
     {
 
         private readonly WeatherData _weatherData;
 
         //声明事件
+        //.NET Core 的模式较为宽松。 在此版本中，EventHandler<TEventArgs> 定义不再要求 TEventArgs 必须是派生自 System.EventArgs 的类。
+        //因此WeatherData不需要派生自 System.EventArgs
         public event EventHandler<WeatherData>? MeasurementsChanged;
 
         public WeatherHandler()

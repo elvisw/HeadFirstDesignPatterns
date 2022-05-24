@@ -18,9 +18,12 @@ namespace WeatherStation.Event.Views
         }
 
         //事件处理，并从e获取数据
-        private void RefreshData(object? sender, EventArgs e)
+        //WeatherData不再派生自 System.EventArgs，所以e参数的类型可以直接为WeatherData
+        //private void RefreshData(object? sender, EventArgs e)
+        private void RefreshData(object? sender, WeatherData e)
         {
-            LoadData((WeatherData)e);
+            //LoadData((WeatherData)e);
+            LoadData(e);
             Display();
         }
 

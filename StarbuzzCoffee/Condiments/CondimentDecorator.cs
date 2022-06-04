@@ -9,7 +9,7 @@ namespace StarbuzzCoffee.Condiments
 {
     public abstract class CondimentDecorator : Beverage
     {
-        public Beverage PBeverage { get; set; }
+        public Beverage? PBeverage { get; set; }
         public abstract override string Description { get; }
     }
 }

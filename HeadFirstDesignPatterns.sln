@@ -65,6 +65,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DinerMerger.withIEnumerable
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DinerMergerCafe", "迭代器模式\DinerMergerCafe\DinerMergerCafe.csproj", "{5F46D9FD-D784-4533-A0D7-47397BF582EF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "组合模式", "组合模式", "{E774DAD5-E5B1-4761-8AED-0137393F90C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Menu", "组合模式\Menu\Menu.csproj", "{A2830729-05B6-4908-920D-8FEC0EC8694E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +159,10 @@ Global
 		{5F46D9FD-D784-4533-A0D7-47397BF582EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F46D9FD-D784-4533-A0D7-47397BF582EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F46D9FD-D784-4533-A0D7-47397BF582EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2830729-05B6-4908-920D-8FEC0EC8694E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2830729-05B6-4908-920D-8FEC0EC8694E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2830729-05B6-4908-920D-8FEC0EC8694E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2830729-05B6-4908-920D-8FEC0EC8694E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +189,7 @@ Global
 		{8505CB51-170E-483C-961C-86A6BF3AB138} = {EAA301F8-8C98-4863-93DB-301F893761EC}
 		{2595FC5C-580C-45C6-924E-1AA8033D2372} = {EAA301F8-8C98-4863-93DB-301F893761EC}
 		{5F46D9FD-D784-4533-A0D7-47397BF582EF} = {EAA301F8-8C98-4863-93DB-301F893761EC}
+		{A2830729-05B6-4908-920D-8FEC0EC8694E} = {E774DAD5-E5B1-4761-8AED-0137393F90C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E79E1CFB-95E5-4B4F-809D-60A5CA87F81C}

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MiniDuckSimulator.Duck">
+    <Position X="5.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAQAAAAAAAAAAAAAQAAAQEAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Duck.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="QuakcBehavior" />
+      <Property Name="FlyBehavior" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MiniDuckSimulator.MallardDuck">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MallardDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiniDuckSimulator.ModelDuck">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelDuck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiniDuckSimulator.FlyNoWay" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>FlyNoWay.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MiniDuckSimulator.FlyRocketPowered" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>FlyRocketPowered.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MiniDuckSimulator.FlyWithWings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>FlyWithWings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MiniDuckSimulator.MuteQuack" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>MuteQuack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MiniDuckSimulator.Quack" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Quack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MiniDuckSimulator.Squeak" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Squeak.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="MiniDuckSimulator.IFlyBehavior">
+    <Position X="8.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>IFlyBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MiniDuckSimulator.IQuackBehavior">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>IQuackbehavior.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

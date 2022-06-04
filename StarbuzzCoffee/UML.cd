@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="StarbuzzCoffee.Beverages.Beverage">
+    <Position X="11.25" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Beverages\Beverage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarbuzzCoffee.Condiments.CondimentDecorator">
+    <Position X="5.5" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Condiments\CondimentDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarbuzzCoffee.Beverages.DarkRoast">
+    <Position X="11.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Beverages\DarkRoast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarbuzzCoffee.Beverages.Decaf">
+    <Position X="14.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Beverages\Decaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarbuzzCoffee.Beverages.Espresso">
+    <Position X="17.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Beverages\Espresso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarbuzzCoffee.Beverages.HouseBlend">
+    <Position X="20" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Beverages\HouseBlend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarbuzzCoffee.Condiments.Mocha">
+    <Position X="2.75" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Condiments\Mocha.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarbuzzCoffee.Condiments.Soy">
+    <Position X="5.75" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Condiments\Soy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarbuzzCoffee.Condiments.Whip">
+    <Position X="8.75" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Condiments\Whip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -73,6 +73,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "状态模式", "状态模�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gumball", "状态模式\Gumball\Gumball.csproj", "{554597D9-7FF6-441F-A355-42E0A8472ED7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GumballState", "状态模式\GumballState\GumballState.csproj", "{50BB5E63-989A-4E46-BDF0-EC29A62CA565}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GumballStateWinner", "状态模式\GumballStateWinner\GumballStateWinner.csproj", "{8719388B-9DD6-4E75-BFE8-05D0AF4DCA9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,14 @@ Global
 		{554597D9-7FF6-441F-A355-42E0A8472ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{554597D9-7FF6-441F-A355-42E0A8472ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{554597D9-7FF6-441F-A355-42E0A8472ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50BB5E63-989A-4E46-BDF0-EC29A62CA565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BB5E63-989A-4E46-BDF0-EC29A62CA565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BB5E63-989A-4E46-BDF0-EC29A62CA565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BB5E63-989A-4E46-BDF0-EC29A62CA565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8719388B-9DD6-4E75-BFE8-05D0AF4DCA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8719388B-9DD6-4E75-BFE8-05D0AF4DCA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8719388B-9DD6-4E75-BFE8-05D0AF4DCA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8719388B-9DD6-4E75-BFE8-05D0AF4DCA9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,6 +211,8 @@ Global
 		{5F46D9FD-D784-4533-A0D7-47397BF582EF} = {EAA301F8-8C98-4863-93DB-301F893761EC}
 		{A2830729-05B6-4908-920D-8FEC0EC8694E} = {E774DAD5-E5B1-4761-8AED-0137393F90C8}
 		{554597D9-7FF6-441F-A355-42E0A8472ED7} = {86CB2E6C-592A-44B5-9A35-376FA27E66F6}
+		{50BB5E63-989A-4E46-BDF0-EC29A62CA565} = {86CB2E6C-592A-44B5-9A35-376FA27E66F6}
+		{8719388B-9DD6-4E75-BFE8-05D0AF4DCA9B} = {86CB2E6C-592A-44B5-9A35-376FA27E66F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E79E1CFB-95E5-4B4F-809D-60A5CA87F81C}
